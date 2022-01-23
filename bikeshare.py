@@ -30,14 +30,14 @@ def get_filters():
            break
 
 
-    # get user input for month (all, january, february, ... , june)
+    # get user input for month.
     print("\nChoose a Month: January, February, March, April, May, June or  all")
     while True:
         month = input('Enter a month: ').lower()
         if month in MONTHS:
             break
 
-    # get user input for day of week (all, monday, tuesday, ... sunday)
+    # get user input for day of week.
     print("\nChoose any day of the following days like: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or all")
     while True:
         day = input('Please enter the day: ').lower()
