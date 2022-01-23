@@ -38,7 +38,7 @@ def get_filters():
             break
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    print("\nChoose a day: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or all")
+    print("\nChoose any day of the following days like: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or all")
     while True:
         day = input('Please enter the day: ').lower()
         if day in DAYS:
