@@ -13,5 +13,4 @@ I used Python to explore data related to bike share systems.
 bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Richard Kalehoff (Udacity mentor) https://github.com/richardkalehoff
